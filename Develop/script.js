@@ -28,3 +28,14 @@ $(".custom-list16").text(sixteen.format("H a"));
 var seventeen = moment().set('hour', 17);
 $(".custom-list17").text(seventeen.format("H a"));
 
+
+function save(){
+    localStorage.setItem('');
+};
+
+var button = document.querySelector('.button');
+
+button.addEventListener("click", function(event) {
+    event.preventDefault();
+}
+);

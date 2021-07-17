@@ -30,8 +30,12 @@ $(".custom-list17").text(seventeen.format("H a"));
 
 
 function save(){
-    localStorage.setItem('');
+   localStorage.setItem('');
 };
+
+function get(){
+    localStorage.getItem('');
+}
 
 var button = document.querySelector('.button');
 
@@ -39,3 +43,8 @@ button.addEventListener("click", function(event) {
     event.preventDefault();
 }
 );
+
+window.onload = function get() {
+};
+
+get('');
